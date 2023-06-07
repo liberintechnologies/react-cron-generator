@@ -13,7 +13,7 @@
     "react cron ",
     "react cron editor",
     "react cron creator"
-  ],
+  ], 
   "author": "Sojin antony",
   "dependencies": {
     "cronstrue": "^2.12.0"
