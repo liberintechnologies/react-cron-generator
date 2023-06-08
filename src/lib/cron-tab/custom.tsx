@@ -13,6 +13,7 @@ const CustomCron: React.FunctionComponent<CustomCronProp> = (props) => {
     const translateFn = props.translate;
 
     let val = props.value.toString().replace(/,/g, ' ').replace(/!/g, ',');
+   
 console.log('props',props.value)
     return (<div id="custom-cron" className="well">
         {translateFn('Expression')} <input id="custom-cron-input" placeholder='Enter Expression' type="text" onChange={onChange} value={val} />

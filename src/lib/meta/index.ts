@@ -78,7 +78,7 @@ export const metadata: MetadataInterface[] = [
  {
     component: Custom,
     name: HEADER_VALUES.CUSTOM,
-    initialCron: ['*','*','*','*','*','*','*']
+    initialCron: ['*','*','*','?','*','*']
 }];
 
 const validateHeaders = (headers: HeaderKeyType[]):HeaderValType[] => {

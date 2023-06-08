@@ -7540,7 +7540,7 @@ const metadata = [
     {
         component: CustomCron,
         name: HEADER_VALUES.CUSTOM,
-        initialCron: ['*', '*', '*', '*', '*', '*', '*']
+        initialCron: ['*', '*', '*', '?', '*', '*']
     }
 ];
 const validateHeaders = (headers) => {
